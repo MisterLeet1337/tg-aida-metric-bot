@@ -4,6 +4,7 @@ from datetime import datetime, timedelta
 from apscheduler.schedulers.background import BackgroundScheduler
 from telebot import types
 
+# лучше бы zabbix поставили себе...
 header_pos = 6
 aida_log_path = 'D:/aida_log_log.csv'
 BOT_TOKEN = ''
